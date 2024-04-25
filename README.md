@@ -20,3 +20,9 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+
+I believe the Median-of-three is a the better choice for a pivot. You are looking at more elements then selecting the first one.
+If you have $n$ elements then picking the first element would give you $1/n$ probability that you picked a good pivot.
+With the median-of-three the probability would be higher because if the array is randomly sorted then the median of the first, middle, and last
+elements are more likely to be near the middle then just the first element. 
