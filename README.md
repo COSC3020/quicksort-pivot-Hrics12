@@ -27,4 +27,6 @@ If you have $n$ elements then picking the first element would give you $1/n$ pro
 With the median-of-three the probability would be higher because if the array is randomly sorted then the median of the first, middle, and last
 elements are more likely to be near the middle then just the first element. Thee median-of-three takes into accout more info of the distripution of the data. When you chose the first element you're not considering any info about the rest of the array.
 
+Well assuming the "good" pivot is the center of the array then choosing the first, middle and last elements would give you a probability that the median is in the middle, then 50% of the sorted array is higher.
+
 
