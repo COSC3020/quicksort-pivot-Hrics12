@@ -31,4 +31,4 @@ Well assuming the "good" pivot is the center of the array then choosing the firs
 
 If the array is randomly ordered then each of the three elements is equally likely to be the smallest, middle, or largest of the three. The probability that the median of these three elements is in the middle 50% of the sorted array is 1 because the median of three numbers is always in the middle 50% of those numbers.
 
-
+This doesn't mean the median of three always guarantees a good pivot. If the array is randomly sorted and you pick 3 elements at random the probability that all 3 of those elements will be in the first quarter of the sorted array is $(n^4)^3 / n^3 = 1/64$ the same can be said if the 3 elements are in the last quarter. This give the median of 3 a probability of $1/32$ that it will result in a bad pivot. So the median of 3 is still generally better then picking just the first element as the pivot. If the data is nearly sorted, both picking the first element and median of 3 might not be the best in quicksort because they both could produce very imbalanced partitions. But with the data being randomly then median of 3 is the way to go.
