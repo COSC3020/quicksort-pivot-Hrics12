@@ -29,4 +29,6 @@ elements are more likely to be near the middle then just the first element. Thee
 
 Well assuming the "good" pivot is the center of the array then choosing the first, middle and last elements would give you a probability that the median is in the middle, then 50% of the sorted array is higher.
 
+If the array is randomly ordered then each of the three elements is equally likely to be the smallest, middle, or largest of the three. The probability that the median of these three elements is in the middle 50% of the sorted array is 1 because the median of three numbers is always in the middle 50% of those numbers.
+
 
